@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me Page</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="body">
+    <!-------------------- Header -------------------->
+    <header>
+      <div class="nav-container">
+        <h3 class="h1">Edgar's Portfolio</h3>
+        <nav>
+          <ul>
+            <li><a class="li" href="#About-Me">About Me</a></li>
+            <li><a class="li" href="#Work">Work</a></li>
+            <li><a class="li" href="#Contact-Me">Contact Me</a></li>
+            <li><a class="li" href="#Resume" target="_blank">Resume</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container gradient">
+      <div class="row">
+        <div class="col">
+          <input id="button" class="button" type="button" value="Get Quote" />
+        </div>
+        <div class="w-100"></div>
+        <div class="col">
+          <div id="quotes" class="quotes"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="selfie-background">
+      <img class="selfie" src="./images/IMG_2086 (2).JPG" />
+    </div>
+
+    <!-------------------- About -------------------->
+
+    <div class="container">
+      <div class="row">
+        <!-- About ME -->
+        <div id="About-Me" class="col-12 col-md-2 section">
+          <h4 class="shadow">About Me</h4>
+        </div>
+        <div class="col-12 col-md-8 bio">
+          <p class="shadow">
+            My name is Edgar and I'm currently taking the UC Davis Coding
+            BootCamp. I want to become a Web Developer.
+            <br /><br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, vitae
+            animi voluptatum reprehenderit nulla sunt vel blanditiis! Nam iste
+            adipisci suscipit, voluptates aperiam cumque voluptatum dolore
+            recusandae modi repellendus hic! periores eligendi, dignissimos
+            expedita perferendis amet aperiam, dolor aspernatur ullam iure
+            commodi quis perspiciatis accusantium maiores. Sint porro voluptas
+            vel?
+            <br /><br />
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            sapiente asperiores eligendi, dignissimos expedita perferendis amet
+            aperiam, dolor aspernatur ullam iure commodi quis perspiciatis
+            accusantium maiores. Sint porro voluptas vel? periores eligendi,
+            dignissimos expedita perferendis amet aperiam, dolor aspernatur
+            ullam iure commodi quis perspiciatis accusantium maiores. Sint porro
+            voluptas vel?
+          </p>
+        </div>
+
+        <!-- Work -->
+        <div id="Work" class="col-12 col-md-2 section">
+          <h4 class="shadow">Work</h4>
+        </div>
+        <div class="col-12 col-md-8">
+          <!-- Large Image Repo -->
+          <a
+            href="https://github.com/EdgarL21/DailyVibes.git"
+            class="links"
+            target="_blank"
+          >
+            <!-- Large Image  -->
+            <div class="img-text">Daily Vibes Repository</div>
+          </a>
+          <a href="https://edgarl21.github.io/DailyVibes/" target="_blank">
+            <img
+              src="./images/DailyVibes.jpg"
+              alt="web1"
+              width="100%"
+              height="400px"
+            />
+          </a>
+        </div>
+
+        <!---------- First row of small images ---------->
+        <div class="col-12 col-md-2 section"></div>
+
+        <!---------- First Small Image ---------->
+        <div class="col-6 col-md-4">
+          <a
+            href="https://github.com/EdgarL21/PasswordGenerator_3.git"
+            class="links"
+            target="_blank"
+          >
+            <div class="img-text">Password Generator Repository</div>
+          </a>
+          <a
+            href="https://edgarl21.github.io/PasswordGenerator_3/"
+            target="_blank"
+          >
+            <img
+              src="images/password.jpg"
+              alt="web2"
+              width="100%"
+              height="200px"
+            />
+          </a>
+        </div>
+
+        <!---------- Second Small Image ---------->
+        <div class="col-6 col-md-4">
+          <a
+            href="https://github.com/EdgarL21/WeatherDashboard_6.git"
+            class="links"
+            target="_blank"
+          >
+            <div class="img-text">Weather Dashboard Repository</div>
+          </a>
+          <a
+            href="https://edgarl21.github.io/WeatherDashboard_6/"
+            target="_blank"
+          >
+            <img
+              src="images/Weather.jpg"
+              alt="web2"
+              width="100%"
+              height="200px"
+            />
+          </a>
+        </div>
+
+        <!---------- Second Row of Small Images ---------->
+        <div class="col-12 col-md-2 section"></div>
+
+        <!---------- Third Small Image ---------->
+        <div class="col-6 col-md-4">
+          <a class="links" target="_blank">
+            <div class="img-text">Project 4</div>
+          </a>
+          <a>
+            <img
+              src="images/000-Web-Developer-Portfolio.jpg"
+              alt="web3"
+              width="100%"
+              height="200px"
+            />
+          </a>
+        </div>
+        <!---------- Fourth Small Image ---------->
+        <div class="col-6 col-md-4">
+          <a class="links" target="_blank">
+            <div class="img-text">Project 5</div>
+          </a>
+          <a>
+            <img
+              src="images/website-developer.jpg"
+              alt="web4"
+              width="100%"
+              height="200px"
+            />
+          </a>
+        </div>
+
+        <!---------- Contact Me ---------->
+        <div class="col-12"></div>
+        <!-- This is only here to separate more between these two   -->
+        <div id="Contact-Me" class="col-12 col-md-2 section">
+          <h4 class="shadow">Contact Me</h4>
+        </div>
+
+        <div class="col-6 col-md-2 contactLinksDiv">
+          <a
+            class="links shadow"
+            href="https://twitter.com/explore"
+            target="_blank"
+            >Twitter</a
+          >
+        </div>
+
+        <div class="col-6 col-md-2 contactLinksDiv">
+          <a class="links shadow" href="https://github.com/" target="_blank"
+            >Github</a
+          >
+        </div>
+
+        <div class="col-6 col-md-3 contactLinksDiv">
+          <a class="links shadow" href="#" target="_blank"
+            >edgar21lc@gmail.com</a
+          >
+        </div>
+
+        <div class="col-6 col-md-2 contactLinksDiv">
+          <a class="links shadow" href="#" target="_blank">(555) 555-5555 </a>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
