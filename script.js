@@ -7,10 +7,22 @@ var quotes = [
   "Stop researching every aspect of it and reading all about it and debating the pros and cons of it … Start doing it. - Jocko Willink",
   "The more you practice, the better you get, the more freedom you have to create. - Jocko Willink",
   "Most of us aren't defeated in one decisive battle. We are defeated one tiny, seemingly insignificant surrender at a time that chips away at who we should really be. - Jocko Willink",
+  "Thought prisons are the best prisons to get into, because you have the key and you can get out. - Duncan Trussell",
+  "True healing is realizing you were never sick in the first place. - Duncan Trussell"
 ];
 
+var funnyquotes = [
+  "Why does crust on pizzas exist and why does everyone pretend it's good - Grant // because its good - Joey & Connor // No it doesn't - Grant",
+  "You can actually launder money and make a social critque simultaneously that's what art is. - Duncan Trussell",
+  "Crustless gang rise up, crustless gang rise up. Gentlemen I have a dream, that one day you will not be judged for your prefernce of food but for your love of cooking itself. I HAVE A DREAM, that one day the Crustless Gang and the Crust Gang and even the only Crust Gang can sit on the same table in peace. Thank you very much. Crustless Gang Rise Up. - Grant"
+]
+
 $("#button").click(function () {
-  $("#quotes").text(quotes[Math.floor(Math.random() * 8)]);
+  $("#quotes").text(quotes[Math.floor(Math.random() * 9)]);
+});
+
+$("#funnybutton").click(function () {
+  $("#quotes").text(funnyquotes[Math.floor(Math.random() * 3)]);
 });
 
 var getWallpaper = function () {

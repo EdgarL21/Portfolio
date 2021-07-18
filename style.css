@@ -25,7 +25,7 @@ header {
   background: #1a1b26;
 }
 
-header h1 {
+/* header h1 {
   line-height: normal;
 }
 
@@ -33,12 +33,12 @@ header::after {
   content: "";
   display: table;
   clear: both;
-}
+} */
 
-.h1 {
+/* .h1 {
   float: left;
   color: #bb9af7;
-}
+} */
 
 /*----------Nav Links----------*/
 nav {
@@ -54,7 +54,7 @@ nav ul {
 nav li {
   display: inline-block;
   margin-left: 70px;
-  padding-top: 25px;
+  padding-top: 50px;
 
   position: relative;
 }
@@ -94,7 +94,7 @@ nav a:hover::before {
     #9ece6a 75%
   );
   width: 100%;
-  height: 150px;
+  height: 175px;
   display: flex;
   justify-content: center;
   text-align: center;
